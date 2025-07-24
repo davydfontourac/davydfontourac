@@ -1,29 +1,58 @@
-# 👋 Olá, eu sou o Davyd Fontoura!
-
-Sou **Desenvolvedor Front-End** apaixonado por traduzir ideias em interfaces modernas, responsivas e funcionais. Minha motivação diária é criar experiências digitais que unam estética, performance e acessibilidade, sempre buscando aprender novas tecnologias e entregar o melhor para cada projeto.
-
-**Principais tecnologias:**  
-JavaScript • React • HTML • CSS
+<h1 align="center">Desenvolvedor Front-End</h1>
 
 ---
 
-## 🚀 Portfólio em Destaque
+## Sobre mim
 
-Veja meus principais projetos e experiências profissionais no meu portfólio:  
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://davydportfoliowebsite.vercel.app/)
-
----
-
-## 🌐 Redes Sociais
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davyd-camargo-70a552261)
+- 🎓 Cursando Análise e Desenvolvimento de Sistemas pela Unisinos (3° semestre)
+- 🎓 Formaçãoem Programação Front-End pelo SENAI
+- 💻 Focado em Front-End moderno e dinâmico
+- 🚀 Explorando novas tecnologias e boas práticas
+- 👨‍💻 Apaixonado por criar interfaces intuitivas
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=davydfontourac&show_icons=true&theme=radical" alt="Davyd's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davydfontourac&layout=compact&theme=radical" alt="Top Langs" />
+## Minhas Habilidades
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" />
 </div>
 
-<!-- Sinta-se à vontade para adicionar mais informações, curiosidades ou hobbies para deixar seu perfil ainda mais autêntico! -->
+---
+
+## Estatísticas do GitHub
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=davydfontourac&show_icons=true&theme=radical" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davydfontourac&layout=compact&langs_count=7&theme=radical" height="150"/>
+</p>
+
+---
+
+## Linguagens mais usadas
+
+- JavaScript
+- Python
+
+---
+
+## Redes sociais
+
+<p>
+  <a href="https://seuportfolio.com" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about.me&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/seulinkedin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:seuemail@dominio.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
+---
+
+> _Personalize os links de Portfolio, LinkedIn e Email com seus dados reais!_
+
+![image1](image1)
