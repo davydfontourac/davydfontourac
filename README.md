@@ -41,7 +41,7 @@
 
 <p>
   <a href="https://davydportfoliowebsite.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about.me&logoColor=white"/></a>
-  <a href="www.linkedin.com/in/davyd-camargo-70a552261" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="[www.linkedin.com/in/davyd-camargo-70a552261](https://www.linkedin.com/in/davyd-camargo-70a552261/#:~:text=www.linkedin.com/in/davyd%2Dcamargo%2D70a552261)" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:davydfontoura@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
