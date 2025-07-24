@@ -5,7 +5,7 @@
 ## Sobre mim
 
 - 🎓 Cursando Análise e Desenvolvimento de Sistemas pela Unisinos (3° semestre)
-- 🎓 Formaçãoem Programação Front-End pelo SENAI
+- 🎓 Formação em Programação Front-End pelo SENAI
 - 💻 Focado em Front-End moderno e dinâmico
 - 🚀 Explorando novas tecnologias e boas práticas
 - 👨‍💻 Apaixonado por criar interfaces intuitivas
