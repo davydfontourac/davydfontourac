@@ -53,6 +53,4 @@
 
 ---
 
-> _Personalize os links de Portfolio, LinkedIn e Email com seus dados reais!_
-
 ![image1](image1)
