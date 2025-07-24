@@ -31,7 +31,7 @@
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=davydfontourac&show_icons=true&theme=radical" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davydfontourac&layout=compact&langs_count=7&theme=radical" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davydfontourac&layout=compact&langs_count=7&theme=radical" height="180"/>
 </p>
 
 
@@ -41,7 +41,7 @@
 
 <p>
   <a href="https://davydportfoliowebsite.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about.me&logoColor=white"/></a>
-  <a href="www.linkedin.com/in/davyd-camargo-70a552261" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="[www.linkedin.com/in/davyd-camargo-70a552261](https://www.linkedin.com/in/davyd-camargo-70a552261/)" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:davydfontoura@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
