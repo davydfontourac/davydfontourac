@@ -40,7 +40,7 @@
 ## Redes sociais
 
 <p>
-  <a href="https://davydportfoliowebsite.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about.me&logoColor=white"/></a>
+  <a href="https://davydfontoura-dev.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about.me&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/davyd-camargo-70a552261/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:davydfontoura@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
