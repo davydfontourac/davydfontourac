@@ -14,7 +14,7 @@
 
 ## Minhas Habilidades
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+<div align="center" style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" height="36" title="HTML5"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" height="36" title="CSS3"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" height="36" title="JavaScript"/>
@@ -23,17 +23,18 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="36" height="36" title="Vite"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="36" height="36" title="Firebase"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" width="36" height="36" title="TailwindCSS"/>
-  <img src="https://www.chartjs.org/media/logo-title.svg" width="36" height="36" title="Chart.js"/>
-  <img src="https://raw.githubusercontent.com/reactchartjs/react-chartjs-2/master/logo.svg" width="36" height="36" title="react-chartjs-2"/>
-  <img src="https://raw.githubusercontent.com/remix-run/react-router/main/docs/_static/og.png" width="36" height="36" title="React Router DOM"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" width="36" height="36" title="Chart.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/reacthookform.svg" width="36" height="36" title="react-chartjs-2 (representado)"/>
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/reactrouter.svg" width="36" height="36" title="React Router DOM"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" width="36" height="36" title="ESLint"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prettier/prettier-original.svg" width="36" height="36" title="Prettier"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postcss/postcss-original.svg" width="36" height="36" title="PostCSS"/>
-  <img src="https://raw.githubusercontent.com/postcss/autoprefixer/main/logo/autoprefixer.svg" width="36" height="36" title="Autoprefixer"/>
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/prettier.svg" width="36" height="36" title="Prettier"/>
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/postcss.svg" width="36" height="36" title="PostCSS"/>
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/autoprefixer.svg" width="36" height="36" title="Autoprefixer"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" title="Git"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" title="Python"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="36" height="36" title="Java"/>
 </div>
+
 
 ---
 
