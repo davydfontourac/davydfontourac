@@ -1,5 +1,12 @@
 <h1 align="center">Desenvolvedor Front-End</h1>
 
+<p align="center">
+  <a href="https://www.davydfontoura.com.br/" target="_blank">
+    <img src="https://raw.githubusercontent.com/davydfontourac/meu-portfolio/main/home.png" alt="Meu Portfólio" width="800">
+  </a>
+</p>
+
+
 ---
 
 ## Sobre mim
