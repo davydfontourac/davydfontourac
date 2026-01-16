@@ -1,7 +1,7 @@
 <h1 align="center">Desenvolvedor Front-End</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Bem-vindo+ao+meu+perfil!;Desenvolvedor+Front-End;Criando+experi%C3%AAncias+incr%C3%ADveis" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Bem-vindo+ao+meu+perfil!;Desenvolvedor+Front-End;Criando+experi%C3%AAncias+incr%C3%ADveis" alt="Animated text displaying welcome message and front-end developer introduction in Portuguese" />
 </p>
 
 ---
