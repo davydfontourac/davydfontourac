@@ -1,7 +1,7 @@
 <h1 align="center">Desenvolvedor Front-End</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="100" height="100" alt="Logo"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="100" height="100" alt="React logo"/>
 </p>
 
 ---
