@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.davydfontoura.com.br/" target="_blank">
-    <img src="https://raw.githubusercontent.com/davydfontourac/meu-portfolio/main/home.png" alt="Meu Portfólio" width="800">
+    <img src="https://raw.githubusercontent.com/davydfontourac/davydfontourac/main/home.png" alt="Meu Portfólio" width="800">
   </a>
 </p>
 
@@ -48,8 +48,8 @@
 ## Estatísticas do GitHub
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=davydfontourac&show_icons=true&theme=radical" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davydfontourac&layout=compact&langs_count=7&theme=radical" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=davydfontourac&show_icons=true&theme=radical" alt="GitHub stats for davydfontourac" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davydfontourac&layout=compact&langs_count=7&theme=radical" alt="Top languages for davydfontourac" height="180"/>
 </p>
 
 
