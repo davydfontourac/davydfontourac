@@ -10,7 +10,7 @@
 #   python -m generator.main --demo
 
 # Your GitHub username (required)
-username: galaxy-dev
+username: davydfontourac
 
 # Profile information displayed in the galaxy header
 profile:
@@ -22,14 +22,13 @@ profile:
     Front-end developer focused on building high-performance and scalable web applications.
     Passionate about React, SEO technical optimization, and clean architecture.
     Currently deepening knowledge in performance engineering and modern web architecture.
-
 philosophy: '"Performance is not an optimization, it is a feature."'
 
 # Social links displayed at the bottom of the profile
 social:
-  email: "nyx@stellarlabs.dev"
-  linkedin: "nyxorion"
-  website: "https://nyxorion.dev"
+  email: "davydfontoura@gmail.com"
+  linkedin: "https://www.linkedin.com/in/davyd-camargo-dev/"
+  website: "https://www.davydfontoura.com.br/"
 
 # Galaxy arms represent your core focus areas
 # Each arm spirals out from the center with its own color and tech items
