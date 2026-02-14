@@ -14,14 +14,16 @@ username: galaxy-dev
 
 # Profile information displayed in the galaxy header
 profile:
-  name: "Nyx Orion"
-  tagline: "Full Stack Developer & Open Source Explorer"
-  company: "Stellar Labs"
-  location: "San Francisco, CA"
+  name: "Davyd Fontoura Camargo"
+  tagline: "Front-End Developer | React & Performance"
+  company: "Freelancer"
+  location: "Brazil"
   bio: |
-    Building tools that make developers' lives easier.
-    Passionate about distributed systems, developer experience, and the open-source ecosystem.
-  philosophy: '"The best code is the code that empowers others."'
+    Front-end developer focused on building high-performance and scalable web applications.
+    Passionate about React, SEO technical optimization, and clean architecture.
+    Currently deepening knowledge in performance engineering and modern web architecture.
+
+philosophy: '"Performance is not an optimization, it is a feature."'
 
 # Social links displayed at the bottom of the profile
 social:
@@ -33,51 +35,59 @@ social:
 # Each arm spirals out from the center with its own color and tech items
 # Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
 galaxy_arms:
-  - name: "Frontend"
+  - name: "Frontend Engineering"
     color: "dendrite_violet"
     items:
-      - "TypeScript"
       - "React"
-      - "CSS"
-  - name: "Backend"
+      - "TypeScript"
+      - "Next.js"
+      - "CSS / Tailwind"
+  
+  - name: "Performance & SEO"
     color: "synapse_cyan"
     items:
-      - "Python"
-      - "Node.js"
-      - "PostgreSQL"
-  - name: "DevOps"
+      - "Core Web Vitals"
+      - "SSR / SSG"
+      - "Technical SEO"
+      - "Web Performance Optimization"
+  
+  - name: "Software Engineering"
     color: "axon_amber"
     items:
-      - "Docker"
-      - "GitHub Actions"
-      - "AWS"
+      - "Clean Code"
+      - "Architecture"
+      - "Git & GitHub"
+      - "API Integration"
+
 
 # Featured projects shown as constellation stars
 # Each project needs:
 #   repo: "owner/repo-name"   — GitHub repository path
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
+
 projects:
-  - repo: "galaxy-dev/nebula-ui"
+  - repo: "davydfontourac/davydfontoura-dev"
     arm: 0
-    description: "A component library with cosmic design tokens and dark-first theming."
-  - repo: "galaxy-dev/stargate-api"
+    description: "High-performance personal portfolio built with modern frontend architecture and SEO best practices."
+
+  - repo: "davydfontourac/confeitaria-app"
     arm: 1
-    description: "High-performance API gateway with built-in observability and caching."
+    description: "Production-ready web application for a confectionery business with focus on UX, performance and scalability."
+
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
 theme:
-  void: "#080c14"              # Darkest background
-  nebula: "#0f1623"            # Card backgrounds
-  star_dust: "#1a2332"         # Borders, dividers
-  synapse_cyan: "#00d4ff"      # Primary accent (arm color 1)
-  dendrite_violet: "#a78bfa"   # Secondary accent (arm color 2)
-  axon_amber: "#ffb020"        # Tertiary accent (arm color 3)
-  text_bright: "#f1f5f9"       # Primary text
-  text_dim: "#94a3b8"          # Secondary text
-  text_faint: "#64748b"        # Muted text, labels
-
+  void: "#070b12"
+  nebula: "#0e1522"
+  star_dust: "#1c2636"
+  synapse_cyan: "#06b6d4"
+  dendrite_violet: "#8b5cf6"
+  axon_amber: "#f59e0b"
+  text_bright: "#e2e8f0"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
 # Stats configuration — which metrics to show on the telemetry card
 stats:
   metrics:
