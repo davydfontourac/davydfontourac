@@ -32,42 +32,62 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-        - name: Test private repository access
-  env:
-    GH_PROFILE_TOKEN: ${{ secrets.GH_PROFILE_TOKEN }}
-  run: |
-    if [ -z "$GH_PROFILE_TOKEN" ]; then
-      echo "::error::O secret GH_PROFILE_TOKEN está vazio ou não existe."
-      exit 1
-    fi
+      - name: Test private repository access
+        env:
+          GH_PROFILE_TOKEN: ${{ secrets.GH_PROFILE_TOKEN }}
+        run: |
+          if [ -z "$GH_PROFILE_TOKEN" ]; then
+            echo "::error::O secret GH_PROFILE_TOKEN está vazio ou não existe."
+            exit 1
+          fi
 
-    curl --silent --fail-with-body \
-      -H "Authorization: Bearer $GH_PROFILE_TOKEN" \
-      -H "Accept: application/vnd.github+json" \
-      -H "X-GitHub-Api-Version: 2022-11-28" \
-      "https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100" \
-      > /tmp/repos.json
+          curl --silent --fail-with-body \
+            -H "Authorization: Bearer $GH_PROFILE_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/user/repos?visibility=all&affiliation=owner&per_page=100" \
+            > /tmp/repos.json
 
-    python <<'PY'
-    import json
+          python <<'PY'
+          import json
 
-    with open("/tmp/repos.json", encoding="utf-8") as arquivo:
-        repos = json.load(arquivo)
+          with open("/tmp/repos.json", encoding="utf-8") as arquivo:
+              repos = json.load(arquivo)
 
-    publicos = [repo for repo in repos if not repo["private"]]
-    privados = [repo for repo in repos if repo["private"]]
+          publicos = [repo for repo in repos if not repo["private"]]
+          privados = [repo for repo in repos if repo["private"]]
 
-    print(f"Total encontrado pelo token: {len(repos)}")
-    print(f"Repositórios públicos: {len(publicos)}")
-    print(f"Repositórios privados: {len(privados)}")
+          print(f"Total encontrado pelo token: {len(repos)}")
+          print(f"Repositórios públicos: {len(publicos)}")
+          print(f"Repositórios privados: {len(privados)}")
 
-    print("\nRepositórios acessíveis:")
+          print("\nRepositórios acessíveis:")
 
-    for repo in repos:
-        visibilidade = "PRIVADO" if repo["private"] else "PÚBLICO"
-        print(f"- {repo['name']} [{visibilidade}]")
+          for repo in repos:
+              visibilidade = "PRIVADO" if repo["private"] else "PÚBLICO"
+              print(f"- {repo['name']} [{visibilidade}]")
 
-    if not privados:
-        print("::error::O token não encontrou nenhum repositório privado.")
-        raise SystemExit(1)
-    PY
+          if not privados:
+              print("::error::O token não encontrou nenhum repositório privado.")
+              raise SystemExit(1)
+          PY
+
+      - name: Generate SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PROFILE_TOKEN }}
+        run: python -m generator.main
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add assets/generated/
+
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update profile SVGs [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes detected"
+          fi
